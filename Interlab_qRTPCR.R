@@ -9,10 +9,7 @@ dat <- read_csv("Data/InterLab_qRTPCR.csv")
 dat$Serotype <- dat$Serotope
 dat <- dat[!is.na(dat$Serotype),]
 
-#loLoQ <- log10(700)
-loLoQ <- 0.0001
-
-dat <- dat[ dat$si_log >= loLoQ & dat$af_log >= loLoQ, ]
+dat <- dat[ dat$si_log >0 & dat$af_log >0, ]
 m <- lm( si_log ~ af_log, dat)
 sm <- summary(m)
 rsq  <- paste0("R^2 == ", round(sm$r.squared,4))
