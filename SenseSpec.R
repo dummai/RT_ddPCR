@@ -6,7 +6,7 @@ dat <- read_csv("Data/SenseSpec_formatted.csv") #Load RT-ddPCR versus qRT-PCR re
 dat$qpcr_detect <- dat$qpcr_log > 0
 dat$qpcr_detect[is.na(dat$qpcr_detect)] <- F
 
-log.lloq <- log10(5065)
+log.lloq <- log10(5065) #Detection limit of RT-ddPCR
 
 dat$ddpcr_detect <- dat$ddpcr_log > log.lloq
 dat$ddpcr_detect[is.na(dat$ddpcr_detect)] <- F
