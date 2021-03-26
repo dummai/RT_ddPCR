@@ -2,7 +2,7 @@ library(tidyverse)
 
 theme_set(theme_bw())
 
-dat  <- read.csv("~/R/R_Projects/ddPCR/Data/SenseSpec_formated.csv", stringsAsFactors=FALSE)
+dat  <- read.csv("Data/SenseSpec_formated.csv", stringsAsFactors=FALSE)
 dat <- dat[dat$Dx != '',]
 dat <- dat[which(dat$ddpcr_log >= 4.190 & dat$ddpcr_log <= 6.854),]
 
