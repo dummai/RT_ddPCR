@@ -11,6 +11,7 @@ This script is used for evaluating the DENV quantification agreement between qRT
 This script is used for evaluating the DENV quantification agreement of RT-ddPCR performed independently in three laboratories using the identical protocol. <b>Figure 5</b> and <b>Figure 6</b> were produced by this script.
 
 ## Interlab_qRTPCR.R
-This script is used for evaluating the DENV quantification agreement of qRT-PCR performed independently in two laboratories using two different protocols. <b>Figure A1</b> was produced by this script.
+This script is used for evaluating the DENV quantification agreement of qRT-PCR performed independently in two laboratories using two different protocols. <b>Figure S4</b> was produced by this script.
 
-
+## ViralLoad_v_Severity.R
+This script is used for evaluate the correlation between DENV levels and disease severity. <b>Figure S5</b> was produced by this script.
