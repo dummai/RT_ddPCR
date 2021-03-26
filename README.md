@@ -5,7 +5,7 @@ This repository contains R scripts used for generating results and figures in th
 This script is used for determining the lower limit of detection (LLOD95) and the lower limit of quantifiction (LLOQ) of RT-ddPCR in measuring DENV. <b>Figure 3</b> was produced by this script.
 
 ## Intralab_qRTPCR_v_ddPCR.R
-This script is used for evaluating the DENV quantification agreement between qRT-PCR and RT-ddPCR. <b>Figure 4</b>, <b>Figure A3</b> and <b>Figure A4</b> were produced by this script.
+This script is used for evaluating the DENV quantification agreement between qRT-PCR and RT-ddPCR. <b>Figure 4</b>, <b>Figure S2</b> and <b>Figure S3</b> were produced by this script.
 
 ## Interlab_ddPCR.R
 This script is used for evaluating the DENV quantification agreement of RT-ddPCR performed independently in three laboratories using the identical protocol. <b>Figure 5</b> and <b>Figure 6</b> were produced by this script.
